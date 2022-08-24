@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Antecipação de Empréstimo</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+        <h2>Calculo Antecipação de Empréstimo</h2>
+        <div class="divValorDaParcela">
+            <label for="valorDaParcela"> Valor da Parcela </label>
+            <input type="number" name="valorDaParcela" id="valorDaParcela">
+        </div>
+        <div class="divTaxa">
+            <label for="taxa"> Taxa </label>
+            <input type="number" name="taxa" id="taxa">
+        </div>
+        <div class="divParcelaAntecipada">
+            <label for="parcelaAntecipada"> Parcela Antecipada </label>
+            <input type="number" name="parcelaAntecipada" id="parcelaAntecipada">
+        </div>
+        <div class="divParcelasPagas">
+            <label for="parcelasPagas"> Parcelas Pagas</label>
+            <input type="number" name="parcelasPagas" id="parcelasPagas">
+        </div>
+        <div class="divCalculo">
+            <button onclick="calcParcelaAntecipada()">Calcular</button>
+        </div>
+        <span id="resultado"></span>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
