@@ -12,7 +12,7 @@ if (parcelaAntecipada.value !== '' && valorDaParcela.value !== '' && taxa.value 
     const antecipacaoEmprestimo = (valorDaParcela.value/ (1 + (taxa.value / 100))**(parcelaAntecipada.value - parcelasPagas.value)).toFixed(2)
     
     
-    resultado.innerHTML = `O valor da sua Parcela pagando de forma Antecipada é de R$  ${antecipacaoEmprestimo}`
+    resultado.innerHTML = `O valor da Parcela Antecipada é de R$  ${antecipacaoEmprestimo}`
 }
     else{
         resultado.innerHTML = 'Preencha os Campos' 
