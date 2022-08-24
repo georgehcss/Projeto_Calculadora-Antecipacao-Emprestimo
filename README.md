@@ -1,7 +1,8 @@
 # Projeto: Calculadora de Antecipação de Empréstimo
 
 
-<img src="exemplo-image.png" alt="exemplo imagem">
+<img src= "WhatsApp Image 2022-08-24 at 16.57.51.jpeg" alt="Foto">
+
 
 > Linha adicional de texto informativo sobre o que o projeto faz. Sua introdução deve ter cerca de 2 ou 3 linhas. Não exagere, as pessoas não vão ler.
 
