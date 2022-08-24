@@ -4,8 +4,6 @@ const taxa = document.querySelector("#taxa");
 const parcelaAntecipada = document.querySelector("#parcelaAntecipada");
 const resultado = document.querySelector("#resultado");
 
-//const antecipacaoEmprestimo = (valorDaParcela.value / (1 + taxa.value)**(parcelaAntecipada.value - parcelasPagas)).toFixed(2)
-
 
 const calcParcelaAntecipada = () => {
 if (parcelaAntecipada.value !== '' && valorDaParcela.value !== '' && taxa.value !== '' && parcelasPagas.value !== ''){
